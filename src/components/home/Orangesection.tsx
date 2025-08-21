@@ -1,5 +1,7 @@
 import React from "react";
 import "../media.css";
+import carImg from "../assets/image/car.png";
+
 
 const Orangesection: React.FC = () => {
   return (
