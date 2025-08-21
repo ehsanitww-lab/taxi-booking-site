@@ -1,5 +1,7 @@
 import React from "react";
 import "../media.css";
+import carImg from ".../assets/image/car.png";
+
 
 const Orangesection: React.FC = () => {
   return (
@@ -9,7 +11,7 @@ const Orangesection: React.FC = () => {
         <div className="orange-section-left">
           <div className="orange-image-wrapper">
             <img
-              src="src\assets\image\image (1).png"
+              src="/images/blackhalfcar.png"
               alt="Taxi driver standing near car"
               className="orange-section-image"
             />
