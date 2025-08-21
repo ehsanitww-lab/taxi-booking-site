@@ -11,7 +11,7 @@ const Orangesection: React.FC = () => {
         <div className="orange-section-left">
           <div className="orange-image-wrapper">
             <img
-              src="src\assets\image\image (1).png"
+              src="https://github.com/ehsanitww-lab/taxi-booking-site/blob/7d9c396365a24267a824a71e2c5ddc12a7ea77ec/src/assets/image/image%20(1).png"
               alt="Taxi driver standing near car"
               className="orange-section-image"
             />
