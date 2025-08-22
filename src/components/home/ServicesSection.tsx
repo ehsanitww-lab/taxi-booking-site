@@ -1,6 +1,11 @@
 import "../media.css";
 import React from "react";
 import { Phone, Globe, Monitor, Rocket } from "lucide-react";
+import myImage from "../assets/image/24-hours-support 1.png";
+import carImage from "../assets/image/MercCar.png";
+import car3Image from "../assets/image/car 3.png";
+import driverImage from "../assets/image/driver (1) 1.png";
+import responsibleImage from "../assets/image/responsible 1.png";
 
 const Home = () => {
   return (
@@ -12,26 +17,26 @@ const Home = () => {
       <><div className="container">
       <div className="icon-row">
         <a href="#communication" className="icon-link">
-  <img src="src\assets\image\24-hours-support 1.png" alt="Communication Icon" className="icon" />
+  <img src={myImage} alt="Communication Icon" className="icon" />
   <p>Communication</p>
 </a>
         <div className="divider"></div>
 
         <a href="#communication" className="icon-link">
-  <img src="src\assets\image\car 3.png" alt="Communication Icon" className="icon" />
-  <p>Communication</p>
+  <img src={car3Image} alt="Car Icon" className="icon" />
+  <p>Car Service</p>
 </a>
         <div className="divider"></div>
 
         <a href="#communication" className="icon-link">
-  <img src="src\assets\image\driver (1) 1.png" alt="Communication Icon" className="icon" />
-  <p>Communication</p>
+  <img src={driverImage} alt="Driver Icon" className="icon" />
+  <p>Professional Drivers</p>
 </a>
         <div className="divider"></div>
 
         <a href="#communication" className="icon-link">
-  <img src="src\assets\image\responsible 1.png" alt="Communication Icon" className="icon" />
-  <p>Communication</p>
+  <img src={responsibleImage} alt="Responsible Service Icon" className="icon" />
+  <p>Responsible Service</p>
 </a>
       </div>
       </div>
@@ -40,7 +45,7 @@ const Home = () => {
       {/* Car Image */}
       <div className="car-container">
         <img
-          src="src\assets\image\MercCar.png"
+          src={carImage}
           alt="Car"
           className="car-img"
         />

@@ -1,5 +1,6 @@
 import React from "react";
 import "../media.css";
+import callIcon from "../assets/image/callicon.png";
 
 const BookTaxiSection: React.FC = () => {
   return (
@@ -9,7 +10,7 @@ const BookTaxiSection: React.FC = () => {
         <div className="book-taxi-buttons">
           <a href="tel:0858000365" className="call-btn">
             <img 
-              src="src\assets\image\callicon.png" 
+              src={callIcon} 
               alt="Phone" 
               className="phone-img"
             />

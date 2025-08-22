@@ -1,5 +1,10 @@
 import React from "react";
 import "../media.css";
+import cardsImage from "../assets/image/cards.png";
+import blackHalfCarImage from "../assets/image/blackhalfcar.png";
+import boxImage1 from "../assets/image/Boximage (1).png";
+import boxImage2 from "../assets/image/Boximage (2).png";
+import boxImage3 from "../assets/image/Boximage (3).png";
 
 const ExtraDetails = () => {
   return (
@@ -11,7 +16,7 @@ const ExtraDetails = () => {
         </div>
         <div className="payment-image">
           <img
-            src="src\assets\image\cards.png"
+            src={cardsImage}
             alt="Online Betalingen"
           />
         </div>
@@ -21,7 +26,7 @@ const ExtraDetails = () => {
       <div className="taxi-info">
         <div className="taxi-banner">
           <img
-            src="src\assets\image\blackhalfcar.png"
+            src={blackHalfCarImage}
             alt="Taxi Banner"
             className="taxi-car"
           />
@@ -51,7 +56,7 @@ const ExtraDetails = () => {
       <div className="services">
         <div className="service-card">
           <img 
-            src="src\assets\image\Boximage (1).png" 
+            src={boxImage1} 
             alt="Taxi Den Haag" 
           />
           <h4>Taxi Den Haag</h4>
@@ -63,7 +68,7 @@ const ExtraDetails = () => {
 
         <div className="service-card">
           <img 
-            src="src\assets\image\Boximage (3).png" 
+            src={boxImage3} 
             alt="Vliegveld Taxi" 
           />
           <h4>Vliegveld Taxi</h4>
@@ -75,7 +80,7 @@ const ExtraDetails = () => {
 
         <div className="service-card">
           <img 
-            src="src/assets/image/Boximage (2).png" 
+            src={boxImage2} 
             alt="Leerlingen Vervoer" 
           />
           <h4>Leerlingen Vervoer</h4>
